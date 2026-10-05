@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>String and Math Functions</title>
+<title>String and Math Functions</title>
 
-    <script>
-        function showFunctions() {
+<script>
+function showFunctions() {
 
-            // String functions
-            let str = "JavaScript Programming";
+// String functions
+let str = "JavaScript Programming";
 
-            document.getElementById("string").innerHTML =
-                "Original String: " + str + "<br>" +
-                "Length: " + str.length + "<br>" +
-                "Uppercase: " + str.toUpperCase() + "<br>" +
-                "Lowercase: " + str.toLowerCase() + "<br>" +
-                "Character at index 4: " + str.charAt(4) + "<br>" +
-                "Substring: " + str.substring(0, 10) + "<br>" +
-                "Replace: " + str.replace("JavaScript", "HTML");
+document.getElementById("string").innerHTML =
+"Original String: " + str + "<br>" +
+"Length: " + str.length + "<br>" +
+"Uppercase: " + str.toUpperCase() + "<br>" +
+"Lowercase: " + str.toLowerCase() + "<br>" +
+"Character at index 4: " + str.charAt(4) + "<br>" +
+"Substring: " + str.substring(0, 10) + "<br>" +
+"Replace: " + str.replace("JavaScript", "HTML");
 
 
-            // Math functions
-            let num = 16.7;
+// Math functions
+let num = 16.7;
 
-            document.getElementById("math").innerHTML =
-                "Number: " + num + "<br>" +
-                "Round: " + Math.round(num) + "<br>" +
-                "Ceil: " + Math.ceil(num) + "<br>" +
-                "Floor: " + Math.floor(num) + "<br>" +
-                "Square Root: " + Math.sqrt(16) + "<br>" +
-                "Power: " + Math.pow(2, 3) + "<br>" +
-                "Absolute Value: " + Math.abs(-10) + "<br>" +
-                "Random Number: " + Math.random();
-        }
-    </script>
+document.getElementById("math").innerHTML =
+"Number: " + num + "<br>" +
+"Round: " + Math.round(num) + "<br>" +
+"Ceil: " + Math.ceil(num) + "<br>" +
+"Floor: " + Math.floor(num) + "<br>" +
+"Square Root: " + Math.sqrt(16) + "<br>" +
+"Power: " + Math.pow(2, 3) + "<br>" +
+"Absolute Value: " + Math.abs(-10) + "<br>" +
+"Random Number: " + Math.random();
+}
+</script>
 </head>
 
 <body onload="showFunctions()">
 
-    <h1>String and Math Functions in JavaScript</h1>
+<h1>String and Math Functions in JavaScript</h1>
 
-    <h2>String Object Functions</h2>
-    <div id="string"></div>
+<h2>String Object Functions</h2>
+<div id="string"></div>
 
-    <h2>Math Object Functions</h2>
-    <div id="math"></div>
+<h2>Math Object Functions</h2>
+<div id="math"></div>
 
 </body>
 </html>
